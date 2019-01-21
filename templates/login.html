@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+<form action="/login" method="POST">
+    {{ message }}
+    <input name="phone" placeholder="+91112223344" value="{{ phone }}" required>
+    <input name="code" placeholder="code from sms">
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>
